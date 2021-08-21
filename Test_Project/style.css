@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: montserrat, sans-serif;
+}
+nav{
+    background: black;
+    color: white; display: flex; justify-content: space-between;
+    text-transform: uppercase;
+     align-items: center;
+     padding: 20px;
+     letter-spacing: 2px;
+     word-spacing: 20px;
+}
+
+body{
+    background-image: url(img/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.heading{
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    color: rgb(17, 0, 252);
+    text-shadow: 0 2px 3px black;
+}
+form{
+    padding: 30px 400px;
+}
+table{
+    padding: 10px 500px;
+    
+
+}
+.button1{
+    text-decoration: none; color: blanchedalmond;
+}
+.btn{
+    background: rgb(0, 163, 238);
+    color: whitesmoke;
+}
+.btn:hover{
+    background: crimson;
+    color: white;
+    padding: 4px;
+
+}
+.imp{
+    text-align: center;
+}
+.para{
+    text-align: center;
+}
+
+.tanweer{
+    animation: beat .25s infinite alternate;
+}
+@keyframes beat{
+	to { transform: scale(0.8); }
+}
